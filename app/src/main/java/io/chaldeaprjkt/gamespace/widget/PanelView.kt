@@ -44,6 +44,9 @@ class PanelView @JvmOverloads constructor(
     }
 
     private fun applyRelativeLocation() {
+        val wm = context.getSystemService(Context.WINDOW_SERVICE) as WindowManager
+        layoutParams.height = LayoutParams.WRAP_CONTENT
+
         doOnLayout {
             if (defaultY == null)
                 defaultY = y
