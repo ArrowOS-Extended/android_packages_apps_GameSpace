@@ -69,4 +69,8 @@
 
     <string name="per_app_unregister">Remover %1$s da biblioteca</string>
 
+    <string name="in_game_notifications_title">Notificações no jogo</string>
+    <string name="in_game_notifications_hide">Não mostre</string>
+    <string name="in_game_notifications_headsup">Mostrar como aviso</string>
+    <string name="in_game_notifications_reticker">Mostrar como reTicker</string>
 </resources>
